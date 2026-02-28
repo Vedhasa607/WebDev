@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>student registration</title>
+    </head>
+    <body style="background-color:rgb(249, 131, 131) ;">
+        <marquee><h1>Student Registration</h1></marquee>
+        <form action="C:\Users\Vedhasa\VIT\SEM-2\Web Dev\submit.html" method="post">
+            <label>Enter your first name: </label>
+            <input type="text" name="fname"></br></br>
+            <label>Enter your last name: </label>
+            <input type="text" name="lname"></br></br>
+
+            <label>Gender: </label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female</br></br>
+
+            <label>Branch: </label>
+            <select name="branch">
+                <option value="Computer Science" selected>Computer science</option>
+                <option value="CSEAIML" selected>CSE-AIML</option>
+                <option value="AIDS" selected>AIDS</option>
+                <option value="CSEAI" selected>CSE-AI</option>
+                <option value="IT" selected>IT</option>
+            </select></br></br>
+
+            <label>Year: </label>
+            <input type="radio" name="year" value="FY">FY
+            <input type="radio" name="year" value="SY">SY  
+            <input type="radio" name="year" value="TY">TY  
+            <input type="radio" name="year" value="B-Tech">B-Tech</br></br> 
+
+            <label>Clubs: </label>
+            <input type="checkbox" name="club" value="GDG">GDG
+            <input type="checkbox" name="club1" value="VishwaConclave">VishwaConclave
+            <input type="checkbox" name="club2" value="SIG">SIG
+            <input type="checkbox" name="club3" value="TEDX">TEDx
+            <input type="checkbox" name="club4" value="Student Council">Student Council</br></br> 
+            
+            <label>Address: </label>
+            <textarea rows="5" cols="30"></textarea></br></br>
+
+            <label>Upload certificate: </label>
+            <input type="file" name="image" accept="image/*"></br></br>
+            <input type="submit" value="Submit">                        
+        </form>
+    </body>
+</html>
